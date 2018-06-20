@@ -5,9 +5,13 @@
   "author": "shayuna",
   "license": "MIT",
   "devDependencies": {
-    "express": "^4.16.3"
+    "express": "^4.16.3",
+    "mocha": "^5.2.0"
   },
   "dependencies": {
     "firebase": "^5.0.4"
-  }
+  },
+  "scripts": {
+    "test": "mocha"
+  }  
 }
